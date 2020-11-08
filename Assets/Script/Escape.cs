@@ -21,6 +21,7 @@ public class Escape : MonoBehaviour
             foreach(GameObject enemy in enemies)
             {
                 Destroy(enemy.gameObject);
+                Debug.Log("TESTSTDSFSDFSDGSDG");
             }
             GameObject.Find("Option").GetComponent<Option>().GameClear();
         }
